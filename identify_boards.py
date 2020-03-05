@@ -6,10 +6,8 @@ import matplotlib.pyplot as plt
 
 
 def img_read(path):
-    
     pict = cv.imread(path)
     gray = cv.cvtColor(pict, cv.COLOR_BGR2GRAY)
-
     
     return gray
 
